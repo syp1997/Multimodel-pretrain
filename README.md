@@ -1,6 +1,6 @@
-## Multimodel
+# Multimodel
 
-### M6: A Chinese Multimodal Pretrainer
+## M6: A Chinese Multimodal Pretrainer
 
 Link: <https://arxiv.org/pdf/2103.00823.pdf>
 
@@ -14,7 +14,7 @@ Dataset: M6
 
 Downstream Task: Text-to-Image Generation(50 million product titles and images), Visual Question Answering(FMIQA dataset), Image Captioning(E-Commerce IC dataset), Question Answering(various Chinese forums), Poem Generation, Image-Text Matching(E-Commerce ITM dataset)
 
-### SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels
+## SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels
 
 Link: <https://arxiv.org/pdf/2103.07829.pdf>
 
@@ -26,7 +26,7 @@ Dataset: MS COCO, Visual Genome (image caption);  VQA v2.0, GQA balanced version
 
 Downstream Task: Image Question Answering(VQA v2.0, GQA 2019), Image-Text Retrieval(Flickr30K dataset), visual reasoning task(NLVR2)
 
-### WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training
+## WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training
 
 Link: <https://arxiv.org/pdf/2103.06561.pdf>
 
@@ -38,7 +38,7 @@ Dataset: RUC-CAS-WenLan(30 million image-text pairs) and AIC-ICC.
 
 Downstream task: MatchSoul and Soul-Music
 
-### VL-BERT: Pre-training of Generic Visual-Linguistic Representations
+## VL-BERT: Pre-training of Generic Visual-Linguistic Representations
 
 Link: <https://arxiv.org/pdf/1908.08530.pdf>
 
@@ -52,7 +52,7 @@ Dataset: Conceptual Captions, BooksCorpus and English Wikipedia
 
 Downstream task: Visual Commonsense Reasoning(VCR dataset), Visual Question Answering(VQA v2.0 dataset), Referring Expression Comprehension(RefCOCO+ dataset)
 
-### VideoBERT: A Joint Model for Video and Language Representation Learning
+## VideoBERT: A Joint Model for Video and Language Representation Learning
 
 Link: <https://arxiv.org/pdf/1904.01766.pdf>
 
@@ -72,7 +72,7 @@ Downstream task: Zero shot action classification(YouCook II), Transfer learning 
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/VideoBERT.png" alt="VideoBERT" width = "100%" height="100%"/>
 </div>
 
-### Learning Video Representations using Contrastive Bidirectional Transformer
+## Learning Video Representations using Contrastive Bidirectional Transformer
 
 Link: <https://arxiv.org/pdf/1906.05743.pdf>
 
@@ -88,7 +88,7 @@ Downstream task: **Action recognition(UCF101, HMDB51)**, Action anticipation(Bre
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/CBT.png" alt="CBT" width = "100%" height="100%"/>
 </div>
 
-### UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
+## UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
 
 Link: <https://arxiv.org/pdf/2002.06353.pdf>
 
@@ -106,7 +106,7 @@ Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/UniVL.png" alt="UniVL" width = "100%" height="100%"/>
 </div>
 
-### ActBERT: Learning Global-Local Video-Text Representations
+## ActBERT: Learning Global-Local Video-Text Representations
 
 Link: <https://arxiv.org/pdf/2011.07231.pdf>
 
