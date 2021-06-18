@@ -80,9 +80,9 @@ Abstract: Self-supervised learning approach for video features, two-stream, Cros
 
 Pretrain method: L<sub>cbt</sub> = w<sub>bert</sub> L<sub>bert</sub> + w<sub>visual</sub>L<sub>visual</sub> + w<sub>cross</sub>L<sub>cross</sub>, fix w<sub>bert</sub> = 0. Feature extraction or fine-tune.
 
-Dataset: Kinetics, HowTo100M
+Dataset: HowTo100M, Kinetics
 
-Downstream task: **Action recognition(UCF101, HMDB51)**, Action anticipation(Breakfast dataset, 50Salads dataset, ActivityNet 200 dataset), **Video captioning(YouCook2)**, **Action segmentation(COIN dataset)**.
+Downstream task: Action recognition(UCF101, HMDB51), Action anticipation(Breakfast dataset, 50Salads dataset, ActivityNet 200 dataset), **Video captioning(YouCook2)**, **Action segmentation(COIN)**.
 
 <div align="center">    
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/CBT.png" alt="CBT" width = "100%" height="100%"/>
@@ -100,7 +100,7 @@ Pretrain method: Five objectives: video-text joint, conditioned masked language 
 
 Dataset: Howto100M
 
-Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal video captioning(Youcook2)**, **action segmentation(COIN dataset)**, action step localization(CrossTask), and **multimodal sentiment analysis(CMU-MOSI)**.
+Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal video captioning(Youcook2)**, **action segmentation(COIN)**, action step localization(CrossTask), and **multimodal sentiment analysis(CMU-MOSI)**.
 
 <div align="center">    
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/UniVL.png" alt="UniVL" width = "100%" height="100%"/>
@@ -110,8 +110,15 @@ Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal
 
 Link: <https://arxiv.org/pdf/2011.07231.pdf>
 
-Abstract: First, incorporates global actions, local regional objects and text descriptions in a joint framework. Second, introduce a TaNgled Transformer block(TNT) to encode features from these three sources. Single stream, four different embeddings, position embedding, segment embedding, token embedding, visual feature embedding. 3D CNN to extract action features, faster R-CNN to extract regional object features.
+Abstract: First, incorporates global actions, local regional objects and text descriptions in a joint framework. Second, introduce a TaNgled Transformer block(TNT) to encode features from these three sources. Single stream, four different embeddings, position embedding, segment embedding, token embedding, visual feature embedding. Train a 3D CNN to extract action features, faster R-CNN to extract regional object features.
 
-Pretrain method: 
+Pretrain method: Masked Language Modeling with Global and Local Visual Cues, Masked Action Classification, Masked Object Classification, Cross-modal matching.
 
-Downstream task: text-video clip retrieval, video captioning, video question answering, action segmentation, and action step localization.
+Dataset: Howto100M
+
+Downstream task: **text-video clip retrieval(YouCook2, MSR-VTT)**, **video captioning(YouCook2)**, video question answering(MSR-VTT, LSMDC), **action segmentation(COIN)**, and action step localization(CrossTask).
+
+<div align="center">    
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/ActBERT.png" alt="ActBERT" width = "100%" height="100%"/>
+</div>
+
