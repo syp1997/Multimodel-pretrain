@@ -1,6 +1,8 @@
-# Multimodel
+# Multimodel Pretraining
 
-## M6: A Chinese Multimodal Pretrainer
+## Image-Text
+
+### M6: A Chinese Multimodal Pretrainer
 
 Link: <https://arxiv.org/pdf/2103.00823.pdf>
 
@@ -14,7 +16,7 @@ Dataset: M6
 
 Downstream Task: Text-to-Image Generation(50 million product titles and images), Visual Question Answering(FMIQA dataset), Image Captioning(E-Commerce IC dataset), Question Answering(various Chinese forums), Poem Generation, Image-Text Matching(E-Commerce ITM dataset)
 
-## SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels
+### SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels
 
 Link: <https://arxiv.org/pdf/2103.07829.pdf>
 
@@ -26,7 +28,7 @@ Dataset: MS COCO, Visual Genome (image caption);  VQA v2.0, GQA balanced version
 
 Downstream Task: Image Question Answering(VQA v2.0, GQA 2019), Image-Text Retrieval(Flickr30K dataset), visual reasoning task(NLVR2)
 
-## WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training
+### WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training
 
 Link: <https://arxiv.org/pdf/2103.06561.pdf>
 
@@ -38,7 +40,7 @@ Dataset: RUC-CAS-WenLan(30 million image-text pairs) and AIC-ICC.
 
 Downstream task: MatchSoul and Soul-Music
 
-## VL-BERT: Pre-training of Generic Visual-Linguistic Representations
+### VL-BERT: Pre-training of Generic Visual-Linguistic Representations
 
 Link: <https://arxiv.org/pdf/1908.08530.pdf>
 
@@ -52,7 +54,9 @@ Dataset: Conceptual Captions, BooksCorpus and English Wikipedia
 
 Downstream task: Visual Commonsense Reasoning(VCR dataset), Visual Question Answering(VQA v2.0 dataset), Referring Expression Comprehension(RefCOCO+ dataset)
 
-## VideoBERT: A Joint Model for Video and Language Representation Learning
+## Video-Text
+
+### VideoBERT: A Joint Model for Video and Language Representation Learning
 
 Link: <https://arxiv.org/pdf/1904.01766.pdf>
 
@@ -72,7 +76,7 @@ Downstream task: Zero shot action classification(YouCook II), Transfer learning 
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/VideoBERT.png" alt="VideoBERT" width = "100%" height="100%"/>
 </div>
 
-## Learning Video Representations using Contrastive Bidirectional Transformer
+### Learning Video Representations using Contrastive Bidirectional Transformer
 
 Link: <https://arxiv.org/pdf/1906.05743.pdf>
 
@@ -88,7 +92,7 @@ Downstream task: Action recognition(UCF101, HMDB51), Action anticipation(Breakfa
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/CBT.png" alt="CBT" width = "100%" height="100%"/>
 </div>
 
-## UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
+### UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
 
 Link: <https://arxiv.org/pdf/2002.06353.pdf>
 
@@ -106,7 +110,7 @@ Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/UniVL.png" alt="UniVL" width = "100%" height="100%"/>
 </div>
 
-## ActBERT: Learning Global-Local Video-Text Representations
+### ActBERT: Learning Global-Local Video-Text Representations
 
 Link: <https://arxiv.org/pdf/2011.07231.pdf>
 
@@ -120,5 +124,51 @@ Downstream task: **text-video clip retrieval(YouCook2, MSR-VTT)**, **video capti
 
 <div align="center">    
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/ActBERT.png" alt="ActBERT" width = "100%" height="100%"/>
+</div>
+
+## Video-Audio
+
+GitHub: https://github.com/krantiparida/awesome-audio-visual
+
+### Deep Audio-Visual Learning: A Survey
+
+Audio-visual Correspondence Learning: Audio-visual retrieval
+
+[Cross-modal embeddings for video and audio retrieval](https://arxiv.org/pdf/1801.02200.pdf)
+
+[Learnable pins: Cross-modal embeddings for person identity](https://arxiv.org/pdf/1805.00833.pdf)
+
+Audio and Visual Generation: General Video to Audio, Audio to Image 
+
+[Visual to sound: Generating natural sound for videos in the wild](https://arxiv.org/pdf/1712.01393.pdf)
+
+[Deep Cross-Modal Audio-Visual Generation](https://arxiv.org/pdf/1704.08292.pdf)
+
+[CMCGAN: A Uniform Framework for Cross-Modal Visual-Audio Mutual Generation](https://arxiv.org/abs/1711.08102)
+
+[Towards Audio to Scene Image Synthesis using Generative Adversarial Network](https://arxiv.org/pdf/1808.04108.pdf)
+
+Audio-visual Representation Learning
+
+[Look, Listen and Learn](https://arxiv.org/pdf/1705.08168.pdf)
+
+[Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization](https://arxiv.org/pdf/1807.00230.pdf)
+
+[Objects that Sound](https://arxiv.org/pdf/1712.06651.pdf)
+
+[Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf)
+
+Real Events-related Datasets
+
+Kinetics-400, Kinetics-600, and Kinetics-700, AVA-Actions dataset, AudioSet, YouTube-8M
+
+### 2.5D Visual Sound
+
+Abstract: Convert monaural audio into binaural audio by leveraging video.
+
+Link: <https://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_2.5D_Visual_Sound_CVPR_2019_paper.pdf>
+
+<div align="center">    
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/2.5D.png" alt="2.5D" width = "100%" height="100%"/>
 </div>
 
