@@ -132,33 +132,26 @@ GitHub: https://github.com/krantiparida/awesome-audio-visual
 
 ### Deep Audio-Visual Learning: A Survey
 
-Audio-visual Correspondence Learning: Audio-visual retrieval
+**Audio-visual Correspondence Learning(Audio-visual retrieval):**
 
-[Cross-modal embeddings for video and audio retrieval](https://arxiv.org/pdf/1801.02200.pdf)
+- [Cross-modal embeddings for video and audio retrieval](https://arxiv.org/pdf/1801.02200.pdf)
+- [Learnable pins: Cross-modal embeddings for person identity](https://arxiv.org/pdf/1805.00833.pdf)
 
-[Learnable pins: Cross-modal embeddings for person identity](https://arxiv.org/pdf/1805.00833.pdf)
+**Audio and Visual Generation(General Video to Audio, Audio to Image):**
 
-Audio and Visual Generation: General Video to Audio, Audio to Image 
+- [Visual to sound: Generating natural sound for videos in the wild](https://arxiv.org/pdf/1712.01393.pdf)
+- [Deep Cross-Modal Audio-Visual Generation](https://arxiv.org/pdf/1704.08292.pdf)
+- [CMCGAN: A Uniform Framework for Cross-Modal Visual-Audio Mutual Generation](https://arxiv.org/abs/1711.08102)
+- [Towards Audio to Scene Image Synthesis using Generative Adversarial Network](https://arxiv.org/pdf/1808.04108.pdf)
 
-[Visual to sound: Generating natural sound for videos in the wild](https://arxiv.org/pdf/1712.01393.pdf)
+**Audio-visual Representation Learning:**
 
-[Deep Cross-Modal Audio-Visual Generation](https://arxiv.org/pdf/1704.08292.pdf)
+- [Look, Listen and Learn](https://arxiv.org/pdf/1705.08168.pdf)
+- [Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization](https://arxiv.org/pdf/1807.00230.pdf)
+- [Objects that Sound](https://arxiv.org/pdf/1712.06651.pdf)
+- [Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf)
 
-[CMCGAN: A Uniform Framework for Cross-Modal Visual-Audio Mutual Generation](https://arxiv.org/abs/1711.08102)
-
-[Towards Audio to Scene Image Synthesis using Generative Adversarial Network](https://arxiv.org/pdf/1808.04108.pdf)
-
-Audio-visual Representation Learning
-
-[Look, Listen and Learn](https://arxiv.org/pdf/1705.08168.pdf)
-
-[Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization](https://arxiv.org/pdf/1807.00230.pdf)
-
-[Objects that Sound](https://arxiv.org/pdf/1712.06651.pdf)
-
-[Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf)
-
-Real Events-related Datasets
+**Real Events-related Datasets**:
 
 Kinetics-400, Kinetics-600, and Kinetics-700, AVA-Actions dataset, AudioSet, YouTube-8M
 
