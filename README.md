@@ -155,11 +155,49 @@ GitHub: https://github.com/krantiparida/awesome-audio-visual
 
 Kinetics-400, Kinetics-600, and Kinetics-700, AVA-Actions dataset, AudioSet, YouTube-8M
 
+### Enhancing Audio-Visual Association with Self-Supervised Curriculum Learning
+
+Link: https://www.aaai.org/AAAI21Papers/AAAI-6067.ZhangJ.pdf
+
+Abstract: two-stream, audio-video
+
+<div align="center">    
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/SSCL.png" alt="SSCL" width = "100%" height="100%"/>
+</div>
+
+### Unpaired Image-to-Speech Synthesis with Multimodal Information Bottleneck
+
+Link: <https://arxiv.org/pdf/1908.07094.pdf>
+
+Github: <https://github.com/yunyikristy/skipNet>
+
+Abstract: Image to text to speech, skip-modal generation.
+
+Dataset: COCO(image text pair), in-house text to speech.
+
+<div align="center">    
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/image-to-speech.png" alt="image-to-speech" width = "100%" height="100%"/>
+</div>
+
+### Watch, Listen and Tell: Multi-modalWeakly Supervised Dense Event Captioning
+
+Link: <https://arxiv.org/pdf/1909.09944.pdf>
+
+Github: <https://github.com/XgDuan/WSDEC>
+
+Abstract: Dense Event Captioning with audio signal. 
+
+Dataset: ActivityNet Captions dataset
+
+<div align="center">    
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/DEC.png" alt="DEC" width = "100%" height="100%"/>
+</div>
+
 ### 2.5D Visual Sound
 
-Abstract: Convert monaural audio into binaural audio by leveraging video.
-
 Link: <https://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_2.5D_Visual_Sound_CVPR_2019_paper.pdf>
+
+Abstract: Convert monaural audio into binaural audio by leveraging video.
 
 <div align="center">    
 <img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/2.5D.png" alt="2.5D" width = "100%" height="100%"/>
