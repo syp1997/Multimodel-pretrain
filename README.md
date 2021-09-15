@@ -73,7 +73,7 @@ Dataset: Cooking312K, YouCook II
 Downstream task: Zero shot action classification(YouCook II), Transfer learning for captioning(YouCook II), text-to-video generation and future forecasting
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/VideoBERT.png" alt="VideoBERT" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/VideoBERT.jpg" alt="VideoBERT" width = "100%" height="100%"/>
 </div>
 
 ### Learning Video Representations using Contrastive Bidirectional Transformer
@@ -89,7 +89,7 @@ Dataset: HowTo100M, Kinetics
 Downstream task: Action recognition(UCF101, HMDB51), Action anticipation(Breakfast dataset, 50Salads dataset, ActivityNet 200 dataset), **Video captioning(YouCook2)**, **Action segmentation(COIN)**.
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/CBT.png" alt="CBT" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/CBT.jpg" alt="CBT" width = "100%" height="100%"/>
 </div>
 
 ### UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation
@@ -107,7 +107,7 @@ Dataset: Howto100M
 Downstream task: **text-based video retrieval(Youcook2, MSR-VTT)**, **multimodal video captioning(Youcook2)**, **action segmentation(COIN)**, action step localization(CrossTask), and **multimodal sentiment analysis(CMU-MOSI)**.
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/UniVL.png" alt="UniVL" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/UniVL.jpg" alt="UniVL" width = "100%" height="100%"/>
 </div>
 
 ### ActBERT: Learning Global-Local Video-Text Representations
@@ -123,7 +123,7 @@ Dataset: Howto100M
 Downstream task: **text-video clip retrieval(YouCook2, MSR-VTT)**, **video captioning(YouCook2)**, video question answering(MSR-VTT, LSMDC), **action segmentation(COIN)**, and action step localization(CrossTask).
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/ActBERT.png" alt="ActBERT" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/ActBERT.jpg" alt="ActBERT" width = "100%" height="100%"/>
 </div>
 
 ## Video-Audio
@@ -162,7 +162,7 @@ Link: https://www.aaai.org/AAAI21Papers/AAAI-6067.ZhangJ.pdf
 Abstract: two-stream, audio-video
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/SSCL.png" alt="SSCL" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/SSCL.jpg" alt="SSCL" width = "100%" height="100%"/>
 </div>
 
 ### Unpaired Image-to-Speech Synthesis with Multimodal Information Bottleneck
@@ -176,7 +176,7 @@ Abstract: Image to text to speech, skip-modal generation.
 Dataset: COCO(image text pair), in-house text to speech.
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/image-to-speech.png" alt="image-to-speech" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/image-to-speech.jpg" alt="image-to-speech" width = "100%" height="100%"/>
 </div>
 
 ### Watch, Listen and Tell: Multi-modalWeakly Supervised Dense Event Captioning
@@ -190,7 +190,7 @@ Abstract: Dense Event Captioning with audio signal.
 Dataset: ActivityNet Captions dataset
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/DEC.png" alt="DEC" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/DEC.jpg" alt="DEC" width = "100%" height="100%"/>
 </div>
 
 ### 2.5D Visual Sound
@@ -200,6 +200,6 @@ Link: <https://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_2.5D_Visual_So
 Abstract: Convert monaural audio into binaural audio by leveraging video.
 
 <div align="center">    
-<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/2.5D.png" alt="2.5D" width = "100%" height="100%"/>
+<img src="https://github.com/syp1997/Multimodel-pretrain/blob/main/imgs/2.5D.jpg" alt="2.5D" width = "100%" height="100%"/>
 </div>
 
